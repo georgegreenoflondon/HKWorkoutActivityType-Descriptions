@@ -127,6 +127,7 @@ extension HKWorkoutActivityType {
         case .basketball:                   return "🏀"
         case .bowling:                      return "🎳"
         case .boxing:                       return "🥊"
+        case .cricket:                      return "🏏"
         case .curling:                      return "🥌"
         case .cycling:                      return "🚲"
         case .equestrianSports:             return "🏇"
