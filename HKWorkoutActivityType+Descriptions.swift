@@ -6,7 +6,6 @@
 //  Copyright © 2020 George Green of London. All rights reserved.
 //
 
-import Foundation
 import HealthKit
 
 extension HKWorkoutActivityType {
