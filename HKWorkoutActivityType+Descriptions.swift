@@ -6,7 +6,6 @@
 //  Copyright © 2020 George Green of London. All rights reserved.
 //
 
-import Foundation
 import HealthKit
 
 extension HKWorkoutActivityType {
@@ -25,6 +24,7 @@ extension HKWorkoutActivityType {
         case .bowling:                      return "Bowling"
         case .boxing:                       return "Boxing"
         case .climbing:                     return "Climbing"
+        case .cricket:                      return "Cricket"
         case .crossTraining:                return "Cross Training"
         case .curling:                      return "Curling"
         case .cycling:                      return "Cycling"
@@ -99,7 +99,8 @@ extension HKWorkoutActivityType {
         case .fitnessGaming:                return "Fitness Gaming"
         
         // Catch-all
-        default:                            return "Other"
+        case .other:                        return "Other"
+        @unknown default:                   return "Other"
         }
     }
     
@@ -125,6 +126,7 @@ extension HKWorkoutActivityType {
         case .basketball:                   return "🏀"
         case .bowling:                      return "🎳"
         case .boxing:                       return "🥊"
+        case .cricket:                      return "🏏"
         case .curling:                      return "🥌"
         case .cycling:                      return "🚲"
         case .equestrianSports:             return "🏇"
